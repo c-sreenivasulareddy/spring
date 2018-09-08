@@ -21,7 +21,7 @@
             "SecurityGroups": [
                "sg-e6ad31aa"
             ],
-            "KeyName": "arn:aws:kms:us-east-1:430313426715:key/d28d13ee-5aea-467d-9979-255e930da5ae",
+            "IamInstanceProfile": "IAM-Role-For-Jenkins",
             "ImageId": "ami-6871a115"
          }
       },
