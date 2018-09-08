@@ -59,7 +59,7 @@
                   "IpProtocol": "tcp",
                   "FromPort": 22,
                   "ToPort": 22,
-                  "CidrIp": null
+                  "CidrIp": "0.0.0.0/0"
                }
             ]
          }
