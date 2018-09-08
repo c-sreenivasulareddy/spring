@@ -7,7 +7,7 @@
    "Parameters": {
       "KeyName": {
          "Description": "Name of an existing EC2 KeyPair to enable SSH access to the instance",
-         "Type": "AWS::EC2::KeyPair::KeyName",
+         "Type": "AWS::EC2::KeyPair::arn:aws:kms:us-east-1:430313426715:key/d28d13ee-5aea-467d-9979-255e930da5ae",
          "ConstraintDescription": "must be the name of an existing EC2 KeyPair."
       },
       "InstanceType": {
