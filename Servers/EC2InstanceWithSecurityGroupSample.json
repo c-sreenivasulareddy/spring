@@ -65,22 +65,10 @@
          }
       }
    },
-   "Outputs": {
-      "InstanceId": {
-         "Description": "InstanceId of the newly created EC2 instance",
-         "Value": null
-      },
-      "AZ": {
-         "Description": "Availability Zone of the newly created EC2 instance",
-         "Value": null
-      },
-      "PublicDNS": {
-         "Description": "Public DNSName of the newly created EC2 instance",
-         "Value": null
-      },
-      "PublicIP": {
-         "Description": "Public IP address of the newly created EC2 instance",
-         "Value": null
-      }
-   }
+   "Outputs" : {
+    "PublicIp" : {
+      "Value" : { "Fn::GetAtt" : [ "Server", "PublicIp" ]},
+      "Description" : "Server's PublicIp Address"
+    }
+  }
 }
