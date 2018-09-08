@@ -67,7 +67,7 @@
    },
    "Outputs" : {
     "PublicIp" : {
-      "Value" : { "Fn::GetAtt" : [ "Server", "PublicIp" ]},
+      "Value" : { "Fn::GetAtt" : [ "EC2Instance", "PublicIp" ]},
       "Description" : "Server's PublicIp Address"
     }
   }
